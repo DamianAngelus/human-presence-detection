@@ -4,8 +4,8 @@ from email.mime.multipart import MIMEMultipart
 
 def send_email(subject, body, recipients):
     # Email configuration
-    sender_email = "humandetection024@gmail.com"
-    password = "qvni bhay ljqd hang"  # Use an app password if 2FA is enabled
+    sender_email = "" #create a email id for sender and input here
+    password = ""  # Use an app password if 2FA is enabled
 
     # Convert the list of recipients to a comma-separated string
     recipients_string = ", ".join(recipients)
@@ -31,8 +31,9 @@ def send_email(subject, body, recipients):
 
 # List of recipients
 recipients_list = [
-    "damianangelus12@gmail.com",
-    "damianangelus18@gmail.com"
+    "@gmail.com",
+    "@gmail.com" #receiver emails 
 ]
+
 
 
