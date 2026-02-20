@@ -21,15 +21,15 @@ Installation:
 Due to file size limitations, trained YOLO model weights are not included in this repository.
 Download the weights(yolov3.weights) yourself and place them in the project directory before running the application.
 
-Future Improvements
-Improve detection accuracy with larger datasets
-Add multi-camera support
-Deploy as cloud-based monitoring system
-Add user authentication
-Implement real-time analytics dashboard
+Future Improvements:
+Improve detection accuracy with larger datasets,
+Add multi-camera support,
+Deploy as cloud-based monitoring system,
+Add user authentication,
+Implement real-time analytics dashboard,
 
-Use Cases
-Office security monitoring
-Restricted area surveillance
-Smart home security
+Use Cases:
+Office security monitoring,
+Restricted area surveillance,
+Smart home securit.
 Industrial safety monitoring
