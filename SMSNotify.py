@@ -2,12 +2,12 @@ from twilio.rest import Client
 
 def send_sms():
     # Twilio credentials
-    account_sid = 'AC6f9c97d6db14c892be8fa45007b4a558'  # Replace with your Twilio Account SID
-    auth_token = '60b18ce357f6e62ceb5ce16c68a26888'    # Replace with your Twilio Auth Token
+    account_sid = ''  # Replace with your Twilio Account SID
+    auth_token = ''    # Replace with your Twilio Auth Token
     twilio_phone_number = '+15076237175'  # Replace with your Twilio phone number
 
     # List of recipient phone numbers in E.164 format
-    recipient_phone_numbers = ['+916382953993']  # Add multiple phone numbers here
+    recipient_phone_numbers = ['+91']  # Add multiple phone numbers here
 
     # Initialize the Twilio Client
     client = Client(account_sid, auth_token)
@@ -25,4 +25,5 @@ def send_sms():
             )
             print(f"Message sent successfully to {recipient_phone_number}. SID: {message.sid}")
         except Exception as e:
+
             print(f"Failed to send message to {recipient_phone_number}: {e}")
